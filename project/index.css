@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.imgbkg{
+    background: url(https://www.wallpaperflare.com/static/762/749/94/literature-black-a-clockwork-orange-minimalism-wallpaper.jpg)      ;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    min-height: 90vh;
+} 
+
+
+
+
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly ;
+    margin-top: 30px;
+    
+}
+
+.Navbar>.container-fluid{
+    margin-left: 40px;
+}
+
+.Navbar>.container-fluid>a{
+    font-size: 40px;
+    color: ghostwhite;
+}
+
+.items>ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+
+}
+
+.items>ul>li{
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+.items>ul>li>a{
+    color:whitesmoke;
+    font-weight: bolder;
+}
+.items>ul>li>a:hover {
+    color:#f5aa1f;
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+.welcom{
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 80px;
+}
+.welcom>h2{
+    color: white;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.welcom>h3{
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
